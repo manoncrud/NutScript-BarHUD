@@ -4,7 +4,7 @@ surface.CreateFont( "hudfont", {
 	size = 22,
 	weight = 500,
 	blursize = 0,
-	scanlines = 0,
+-	scanlines = 0,
 	antialias = true,
 	underline = false,
 	italic = false,
@@ -14,7 +14,7 @@ surface.CreateFont( "hudfont", {
 	shadow = false,
 	additive = false,
 	outline = false,
-} )
+-} )
 
 ourMat = Material( "materials/pp/bluescreen" ) -- Calling Material() every frame is quite expensive
 
@@ -24,7 +24,7 @@ local client = localPlayer
 local char = client:getChar()
 
 hook.Run("ShouldHideBars")
---JOB NAME--
+---JOB NAME--
 local class = char:getClass()
 local classData = nut.class.list[class]
 --JOB NAME END--
@@ -99,7 +99,7 @@ surface.DrawText(nut.currency.get(char:getMoney()))
 surface.SetTextPos(ScrW()*0.93, ScrH()*0.0044)
 surface.SetFont("hudfont")
 surface.SetTextColor(225,225,225)
-surface.DrawText("GMroleplay.Org")
+surface.DrawText("GMroleplay.Org")--Change this to your own website!
 
 --Layer: 2
 
