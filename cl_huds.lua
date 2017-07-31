@@ -1,3 +1,5 @@
++nut.hud = {}
+ +
 surface.CreateFont( "hudfont", {
 	font = "Coolvetica", -- Use the font-name which is shown to you by your operating system Font Viewer, not the file name
 	extended = false,
