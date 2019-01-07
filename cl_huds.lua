@@ -1,5 +1,5 @@
-+nut.hud = {}
- +
+nut.hud = {}
+
 surface.CreateFont( "hudfont", {
 	font = "Coolvetica", -- Use the font-name which is shown to you by your operating system Font Viewer, not the file name
 	extended = false,
@@ -16,7 +16,7 @@ surface.CreateFont( "hudfont", {
 	shadow = false,
 	additive = false,
 	outline = false,
--} )
+} )
 
 ourMat = Material( "materials/pp/bluescreen" ) -- Calling Material() every frame is quite expensive
 
